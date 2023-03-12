@@ -1,0 +1,9 @@
+.hero__job {
+    margin: 0;
+    padding-bottom: 13px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFBB01;
+}
