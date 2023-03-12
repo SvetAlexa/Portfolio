@@ -1,0 +1,5 @@
+.features__card {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+}

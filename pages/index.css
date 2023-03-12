@@ -21,3 +21,18 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_hero.css);
+
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__table/features__table.css);
+@import url(../blocks/features/__card/features__card.css);
+@import url(../blocks/features/__icon/features__icon.css);
+@import url(../blocks/features/__icon/_offer/features__icon_offer.css);
+@import url(../blocks/features/__icon/_deadline/features__icon_deadline.css);
+@import url(../blocks/features/__icon/_agreement/features__icon_agreement.css);
+@import url(../blocks/features/__icon/_steps/features__icon_steps.css);
+@import url(../blocks/features/__icon/_storage/features__icon_storage.css);
+@import url(../blocks/features/__icon/_conversation/features__icon_conversation.css);
+
+@import url(../blocks/section-title/section-title.css);
+
+@import url(../blocks/subtitle/subtitle.css);
