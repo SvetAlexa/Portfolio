@@ -1,0 +1,6 @@
+.portfolio__project-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 54px;
+    column-gap: 16px;
+}

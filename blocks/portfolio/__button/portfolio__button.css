@@ -1,0 +1,14 @@
+.portfolio__button {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #fff;
+    background-color: #EC1F46;
+    border-radius: 4px;
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 2px #CE1C3E;
+    position: absolute;
+    left: 30px;
+    bottom: 28px;
+}

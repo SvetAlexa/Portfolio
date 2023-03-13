@@ -1,0 +1,11 @@
+.portfolio__project-name {
+    margin: 0;
+    max-width: 158px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 172px;
+    padding-bottom: 12px;
+}

@@ -1,0 +1,9 @@
+.portfolio__project {
+    width: 304px;
+    height: 304px;
+    position: relative;
+    border-radius: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

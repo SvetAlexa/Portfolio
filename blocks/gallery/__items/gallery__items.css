@@ -1,0 +1,6 @@
+.gallery__items {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, 224px);
+    width: 944px;
+}

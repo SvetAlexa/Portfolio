@@ -36,3 +36,20 @@
 @import url(../blocks/section-title/section-title.css);
 
 @import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_indent/subtitle_indent_s.css);
+@import url(../blocks/subtitle/_indent/subtitle_indent_m.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__project-name/portfolio__project-name.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+@import url(../blocks/portfolio/__project/portfolio__project.css);
+@import url(../blocks/portfolio/__project-list/portfolio__project-list.css);
+@import url(../blocks/portfolio/__project/_number/portfolio__project_number_one.css);
+@import url(../blocks/portfolio/__project/_number/portfolio__project_number_two.css);
+@import url(../blocks/portfolio/__project/_number/portfolio__project_number_three.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__photo/gallery__photo.css);
+
+@import url(../blocks/footer/footer.css);

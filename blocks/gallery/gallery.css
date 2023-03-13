@@ -1,0 +1,7 @@
+.gallery {
+    background-color: #141F35;
+    min-height: 897px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
