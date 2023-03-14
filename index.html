@@ -47,7 +47,10 @@
                     <p class="paragraph">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
                         дизайн
                         и верстку небольшого сайта или интернет-магазина</p>
-                    <button class="button button_place_hero">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+                    <form action="#feedback">
+                        <button class="button button_place_hero">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+                    </form>
+                        
                 </div>
                 <img class="hero__avatar" src="./images/main_photo.jpg" alt="фотография">
             </section>
@@ -129,25 +132,36 @@
         <footer class="footer">
             <h2 class="section-title">Свяжитесь со мной</h2>
             <div class="footer__contacts">
-                <div class="form">
+                <div id="feedback" class="form">
 
                 </div>
                 <div class="footer__info">
-                    <div class="footer__communication">
-                        <h3 class="subtitle subtitle_indent_m">Телефон</h3>
-                        <p class="hero-contacts">+7 999 123 45 67</p>
+                    <div class="footer__communication-block">
+                        <div class="footer__communication">
+                            <h3 class="subtitle subtitle_indent_m">Телефон</h3>
+                            <p class="footer__hero-contacts">+7 999 123 45 67</p>
+                        </div>
+                        <div class="footer__communication">
+                            <h3 class="subtitle subtitle_indent_m">Почта</h3>
+                            <p class="footer__hero-contacts">ivanov@mail.ru</p>
+                        </div>
                     </div>
+
                     <div class="footer__communication">
-                        <h3 class="subtitle">Почта</h3>
-                        <p class="hero-contacts">ivanov@mail.ru</p>
+                        <h3 class="subtitle subtitle_indent_m">Соцсети</h3>
+                        <ul class="footer__hero-socials">
+                            <li>
+                                <p class="footer__hero-contacts">t.me/ivanov</p>
+                            </li>
+                            <li>
+                                <p class="footer__hero-contacts">vk.me/ivanov</p>
+                            </li>
+                            <li>
+                                <p class="footer__hero-contacts">fb.me/ivanov</p>
+                            </li>
+                        </ul>     
                     </div>
-                    <div class="footer__communication">
-                        <h3 class="subtitle">Соцсети</h3>
-                        <p class="hero-contacts">t.me/ivanov</p>
-                        <p class="hero-contacts">vk.me/ivanov</p>
-                        <p class="hero-contacts">fb.me/ivanov</p>
-                    </div>
-                    <ul class="socials">
+                    <ul class="socials socials_place_footer">
                         <li class="socials__list">
                             <a class="socials__link link-opacity" href="#">
                                 <img class="socials__logo" src="./images/github.svg" alt="логотип гитхаб">

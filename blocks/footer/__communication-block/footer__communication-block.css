@@ -1,0 +1,5 @@
+.footer__communication-block {
+    display: flex;
+    column-gap: 116px;
+    padding-bottom: 32px;
+}

@@ -1,0 +1,5 @@
+.socials_place_footer {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%)
+}

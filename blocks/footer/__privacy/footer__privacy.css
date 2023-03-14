@@ -1,0 +1,10 @@
+.footer__privacy {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #949494;
+}
+
+.footer__privacy:hover {
+    color: #fff;
+}

@@ -1,0 +1,9 @@
+.footer__contacts {
+    display: flex;
+    margin: 0;
+    padding-top: 88px;
+    min-height: 462px;
+    box-sizing: border-box;
+    column-gap: 96px;
+    justify-content: center;
+}

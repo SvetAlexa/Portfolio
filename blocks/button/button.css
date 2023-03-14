@@ -11,3 +11,7 @@
     border-bottom-right-radius: 10px;
     box-shadow: 0 4px #B68500;
 }
+
+.button:hover {
+    cursor: pointer;
+}
