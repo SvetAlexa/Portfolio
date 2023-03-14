@@ -1,5 +1,6 @@
 .gallery__photo {
     width: 224px;
     height: 224px;
-    object-fit: cover;   
+    object-fit: cover;
+    pointer-events: none;   
 }

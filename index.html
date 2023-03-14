@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./vendor/fonts.css">
     <link rel="icon" href="./images/id_badge_solid_icon_235762.ico" type="image/x-icon">
     <title>Портфолио</title>
 </head>
@@ -50,7 +50,6 @@
                     <form action="#feedback">
                         <button class="button button_place_hero">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
                     </form>
-                        
                 </div>
                 <img class="hero__avatar" src="./images/main_photo.jpg" alt="фотография">
             </section>
@@ -119,12 +118,20 @@
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery03.jpg">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery04.jpg">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery05.jpg">
-                    <video class="gallery__video"></video>
+                        <video class="gallery__video" controls muted
+                            src="./video/mixkit-woman-typing-on-her-laptop-in-a-coffee-shop-206-medium.mp4"></video>
+
+
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery07.jpg">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery08.jpg">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery09.jpg">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery10.jpg">
-                    <video class="gallery__video"></video>
+                    <video class="gallery__video" controls muted>
+                        <source src="./video/mixkit-aerial-shot-of-a-river-near-a-large-metropolis-43604-medium.webm"
+                            type="video/webm">
+                        <source src="./video/mixkit-aerial-shot-of-a-river-near-a-large-metropolis-43604-medium.mp4"
+                            type="video/mp4">
+                    </video>
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery12.jpg">
                 </div>
             </section>
@@ -159,7 +166,7 @@
                             <li>
                                 <p class="footer__hero-contacts">fb.me/ivanov</p>
                             </li>
-                        </ul>     
+                        </ul>
                     </div>
                     <ul class="socials socials_place_footer">
                         <li class="socials__list">

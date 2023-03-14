@@ -4,6 +4,7 @@
     object-fit: cover;
     object-position: center center;
     border-radius: 50%;
-    border: 11px solid #fff;
+    box-shadow: 0 0 0 11px #fff;
+    background-color: #fff;
     pointer-events: none;
 }
