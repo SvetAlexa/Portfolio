@@ -1,0 +1,8 @@
+.hero__avatar-container {
+    width: 362px;
+    height: 362px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50%;
+    border: 11px solid #fff;
+}

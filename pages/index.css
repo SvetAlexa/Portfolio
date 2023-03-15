@@ -16,6 +16,7 @@
 @import url(../blocks/hero/__card/hero__card.css);
 @import url(../blocks/hero/__job/hero__job.css);
 @import url(../blocks/hero/__name/hero__name.css);
+@import url(../blocks/hero/__avatar-container/hero__avatar-container.css);
 @import url(../blocks/hero/__avatar/hero__avatar.css);
 
 @import url(../blocks/paragraph/paragraph.css);

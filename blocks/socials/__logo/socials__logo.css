@@ -1,4 +1,9 @@
 .socials__logo {
     width: 20px;
     height: 20px;
+    transition: transform .2s linear .1s;
+}
+
+.socials__logo:hover {
+    transform: scale(2);
 }
