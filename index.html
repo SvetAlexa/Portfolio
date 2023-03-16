@@ -43,7 +43,7 @@
             <section class="hero">
                 <div class="hero__card">
                     <p class="hero__job">Фрилансер</p>
-                    <h1 class="hero__name">Петр Федоров</h1>
+                    <h1 class="hero__name">Светлана Александрова</h1>
                     <p class="paragraph">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
                         дизайн
                         и верстку небольшого сайта или интернет-магазина</p>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </section>
-            <section class="gallery">
+            <section class="gallery" aria-label="Фото и видео галерея">
                 <div class="gallery__items">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery01.jpg">
                     <img class="gallery__photo" alt="фотография" src="./images/gallery_photo/gallery02.jpg">
@@ -146,26 +146,26 @@
                 <div id="feedback" class="footer__form-container">
                     <div class="form-card">
                         <p class="form-card__header">Можете просто оставить заявку, я позвоню вам сегодня</p>
-                        <form class="form">
+                        <form class="form" id="clients-contats">
                             <div class="form__field">
                                 <fieldset class="form__input-container form__name-info">
                                     <div class="form__icon form__icon_name">
-                                        <input type="text" name="name" id="name" placeholder="Ваше имя"
-                                            required class="form__item form__item_name">
+                                        <input type="text" name="name" id="name" placeholder="Ваше имя" required
+                                            class="form__item form__item_name">
                                     </div>
                                 </fieldset>
                             </div>
                             <div class="form__field">
                                 <fieldset class="form__input-container form__contact-info">
                                     <div class="form__icon form__icon_phone-number">
-                                        <input type="number" name="phone-number" id="phone-number"
-                                            placeholder="Ваш телефон" value="" required
-                                            class="form__item form__item_number">
+                                        <input type="tel" name="phone-number" id="phone-number"
+                                            placeholder="Ваш телефон" required class="form__item form__item_number">
                                     </div>
                                 </fieldset>
                             </div>
                         </form>
-                        <button type="submit" name="submit" value="submit" class="button button_place_footer">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+                        <button type="submit" name="submit" value="submit" form="clients-contats"
+                            class="button button_place_footer">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
                     </div>
                 </div>
                 <div class="footer__info">
@@ -176,20 +176,20 @@
                         </div>
                         <div class="footer__communication">
                             <h3 class="subtitle subtitle_indent_m">Почта</h3>
-                            <p class="footer__hero-contacts">ivanov@mail.ru</p>
+                            <p class="footer__hero-contacts">example@mail.ru</p>
                         </div>
                     </div>
                     <div class="footer__communication">
                         <h3 class="subtitle subtitle_indent_m">Соцсети</h3>
                         <ul class="footer__hero-socials">
                             <li>
-                                <p class="footer__hero-contacts">t.me/ivanov</p>
+                                <p class="footer__hero-contacts">t.me/example</p>
                             </li>
                             <li>
-                                <p class="footer__hero-contacts">vk.me/ivanov</p>
+                                <p class="footer__hero-contacts">vk.me/example</p>
                             </li>
                             <li>
-                                <p class="footer__hero-contacts">fb.me/ivanov</p>
+                                <p class="footer__hero-contacts">fb.me/example</p>
                             </li>
                         </ul>
                     </div>
@@ -219,7 +219,5 @@
                 </div>
             </div>
         </footer>
-
     </div>
-
 </body>

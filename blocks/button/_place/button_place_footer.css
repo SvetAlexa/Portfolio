@@ -11,11 +11,3 @@
     color: #fff;
     box-shadow: 0 4px #1B2944;
 }
-
-.third {
-    border-color: #3498db;
-    color: #fff;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-  }
