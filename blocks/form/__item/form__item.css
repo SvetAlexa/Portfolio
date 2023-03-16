@@ -1,0 +1,21 @@
+.form__item {
+    display: block;
+    width: 331px;
+    min-height: 31px;
+    padding: 0;
+    padding-left: 28px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    border: none;
+    margin: 0;
+    color: #000;
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+}
+
+.form__item::placeholder {
+    color: #949494;
+}

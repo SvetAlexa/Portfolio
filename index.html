@@ -143,7 +143,30 @@
         <footer class="footer">
             <h2 class="section-title">Свяжитесь со мной</h2>
             <div class="footer__contacts">
-                <div id="feedback" class="form">
+                <div id="feedback" class="footer__form-container">
+                    <div class="form-card">
+                        <p class="form-card__header">Можете просто оставить заявку, я позвоню вам сегодня</p>
+                        <form class="form">
+                            <div class="form__field">
+                                <fieldset class="form__input-container form__name-info">
+                                    <div class="form__icon form__icon_name">
+                                        <input type="text" name="name" id="name" placeholder="Ваше имя"
+                                            required class="form__item form__item_name">
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="form__field">
+                                <fieldset class="form__input-container form__contact-info">
+                                    <div class="form__icon form__icon_phone-number">
+                                        <input type="number" name="phone-number" id="phone-number"
+                                            placeholder="Ваш телефон" value="" required
+                                            class="form__item form__item_number">
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </form>
+                        <button type="submit" name="submit" value="submit" class="button button_place_footer">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+                    </div>
                 </div>
                 <div class="footer__info">
                     <div class="footer__communication-block">

@@ -1,0 +1,21 @@
+.button_place_footer {
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: .2s ease-in-out;
+}
+
+.button_place_footer:hover {
+    text-shadow: 1px 0 8px #fff;
+    background-color: #141F35;
+    color: #fff;
+    box-shadow: 0 4px #1B2944;
+}
+
+.third {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }

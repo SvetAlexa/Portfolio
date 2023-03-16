@@ -1,6 +1,35 @@
+@keyframes moveLight {
+    from {
+      transform: translateX(-10em) skewX(-45deg);
+    }
+    to {
+      transform: translateX(30em) skewX(-45deg);
+    }
+  }
+  
+
 .button_place_hero {
     padding: 25px 62px 25px 63px;
     position: absolute;
     left: 0;
     bottom: 0;
 }
+
+.button_place_hero:hover {
+    box-shadow: 0 4px 10px #fff;
+}
+
+.button_place_hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(-10em) skewX(-45deg);
+  }
+  
+  .button_place_hero:hover:before {
+    animation: moveLight 0.9s;
+  }

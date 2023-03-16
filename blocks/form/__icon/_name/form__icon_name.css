@@ -1,0 +1,5 @@
+.form__icon_name::before {
+    background-image: url(../../../../images/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

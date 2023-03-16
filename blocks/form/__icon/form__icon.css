@@ -1,0 +1,19 @@
+.form__icon {
+    position: relative;
+    overflow: visible;
+}
+
+.form__icon::before {
+    content: '';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 16px;
+    min-height: 18px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: #949494;
+    top: 50%;
+    transform: translateY(-50%);
+}

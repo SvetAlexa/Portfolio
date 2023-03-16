@@ -23,6 +23,7 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_hero.css);
+@import url(../blocks/button/_place/button_place_footer.css);
 
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__table/features__table.css);
@@ -57,10 +58,20 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__form-container/footer__form-container.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__communication-block/footer__communication-block.css);
 @import url(../blocks/footer/__hero-socials/footer__hero-socials.css);
 @import url(../blocks/footer/__hero-contacts/footer__hero-contacts.css);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
 
+@import url(../blocks/form-card/form-card.css);
+@import url(../blocks/form-card/__header/form-card__header.css);
+
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__icon/form__icon.css);
+@import url(../blocks/form/__icon/_name/form__icon_name.css);
+@import url(../blocks/form/__icon/_name/form__icon_phone-number.css);

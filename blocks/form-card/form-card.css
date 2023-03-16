@@ -1,0 +1,9 @@
+.form-card {
+    width: 380px;
+    min-height: 348px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    position: relative;
+    overflow: hidden;
+}
