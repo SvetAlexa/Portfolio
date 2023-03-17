@@ -9,10 +9,11 @@
   
 
 .button_place_hero {
-    padding: 25px 62px 25px 63px;
+    padding: 25px 62px 25px 62px;
     position: absolute;
     left: 0;
     bottom: 0;
+    transition: .4s linear;
 }
 
 .button_place_hero:hover {

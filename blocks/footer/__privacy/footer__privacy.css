@@ -3,6 +3,9 @@
     left: 0;
     bottom: 0;
     color: #949494;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
 }
 
 .footer__privacy:hover {

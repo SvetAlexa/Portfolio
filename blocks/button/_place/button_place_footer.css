@@ -1,7 +1,5 @@
 .button_place_footer {
-    padding: 0;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 0;
     transition: .2s ease-in-out;
 }
 

@@ -1,4 +1,4 @@
-.form__icon_phone-number::before {
+.form__icon_type_phone-number::before {
     background-image: url(../../../../images/phone-icon.svg);
     background-repeat: no-repeat;
     background-position: center;

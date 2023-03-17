@@ -1,6 +1,7 @@
 .portfolio__project-name {
     margin: 0;
     max-width: 158px;
+    width: 100%;
     font-size: 18px;
     font-weight: bold;
     line-height: 28px;
