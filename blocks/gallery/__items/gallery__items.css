@@ -2,5 +2,6 @@
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(auto-fit, 224px);
-    width: 944px;
+    max-width: 944px;
+    width: 100%;
 }

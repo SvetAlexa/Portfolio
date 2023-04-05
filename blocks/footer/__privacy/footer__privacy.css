@@ -3,9 +3,11 @@
     left: 0;
     bottom: 0;
     color: #949494;
+    font-family: 'Roboto', Helvetica, sans-serif;;
     font-size: 15px;
     font-weight: normal;
     line-height: 18px;
+    transition: .5s ease-in-out;
 }
 
 .footer__privacy:hover {

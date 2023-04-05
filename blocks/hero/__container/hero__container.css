@@ -1,0 +1,12 @@
+.hero__container {
+    max-width: 944px;
+    min-height: 568px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 96px;
+    padding-top: 42px;
+    box-sizing: border-box;
+}

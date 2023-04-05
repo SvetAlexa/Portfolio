@@ -1,5 +1,5 @@
 .page {
-    width: 1280px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin: 0 auto;
-    font-family: 'Roboto', Helvetica, sans-serif;
 }
